@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PLAYHAUZ • Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="bg" aria-hidden="true">
+  <img src="assets/bg.webp" alt="" />
+</div>
+
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html" aria-label="Playhauz Home">
+      <img class="brand-logo" src="assets/logo.webp" alt="PLAYHAUZ logo" />
+      <span class="brand-text glitch" data-text="PLAYHAUZ">PLAYHAUZ</span>
+    </a>
+    <nav class="menu">
+      <a href="index.html" style="background: rgba(255,255,255,.08)">Home</a>
+      <a href="services.html">Our Services</a>
+      <a href="terms.html">Book Now</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn primary" href="services.html">Book Now</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section class="hero" id="home">
+  <div>
+    <h1>India's Best Memories Experience<br/>Theatre Venue for Celebrations</h1>
+    <p class="sub">Book Your Perfect Celebration: Birthdays, Anniversaries, Date Nights &amp; More!</p>
+    <div class="neon-line" aria-hidden="true"></div>
+    <div class="steps">
+      <span class="step on">Basic Details</span>
+      <span class="step">Add-ons</span>
+      <span class="step">Payment</span>
+    </div>
+  </div>
+
+  <div class="glass rgb-border">
+    <div class="card-pad">
+      <span class="pill">Delhi NCR</span>
+
+      <div class="field">
+        <label>CITY</label>
+        <select id="city"><option>Delhi NCR</option></select>
+      </div>
+
+      <div class="field">
+        <label>LOCATION</label>
+        <select id="location">
+          <option>Lajpat Nagar - 1 (B-31 Basement)</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>DATE</label>
+        <input id="date" type="date" />
+      </div>
+
+      <button class="btn primary full" id="startBooking">Book Now</button>
+
+      <div style="margin-top:14px; opacity:.9; font-weight:900;">
+        <div style="font-size:22px;">153,754 <span style="font-size:12px; font-weight:800; opacity:.85;">bookings completed</span></div>
+        <div class="small" style="color: rgba(180,255,255,.95);">People searching right now</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="footer">
+  <div>PLAYHAUZ ENTERTAINMENT ZONE PRIVATE LIMITED</div>
+  <div class="small">B-31, Basement, Lajpat Nagar - 1, Lajpat Nagar (South Delhi), South Delhi, New Delhi, Delhi, India, 110024</div>
+  <div class="small">playhauzentertainment@gmail.com</div>
+</div>
+
+</main>
+<a class="whatsapp-fab" href="javascript:void(0)" onclick="document.getElementById('confirmBtn')?.scrollIntoView({behavior:'smooth'})" title="WhatsApp">
+  <span>WA</span>
+</a>
+<script src="script.js"></script>
+</body>
+</html>

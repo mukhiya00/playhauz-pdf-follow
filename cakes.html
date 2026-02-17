@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PLAYHAUZ • Cakes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="bg" aria-hidden="true">
+  <img src="assets/bg.webp" alt="" />
+</div>
+
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html" aria-label="Playhauz Home">
+      <img class="brand-logo" src="assets/logo.webp" alt="PLAYHAUZ logo" />
+      <span class="brand-text glitch" data-text="PLAYHAUZ">PLAYHAUZ</span>
+    </a>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="services.html">Our Services</a>
+      <a href="terms.html" style="background: rgba(255,255,255,.08)">Book Now</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn primary" href="services.html">Book Now</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<div class="section-head">
+  <h2 class="section-title">Choose Cake <span class="small">(Optional Add-on)</span></h2>
+</div>
+
+<div class="two">
+  <section class="glass rgb-border">
+    <div class="card-pad">
+      <div class="list">
+        <div class="item" data-cake="Fudge Cake" data-price="500"><div class="thumb"><img src="assets/birthday.webp" alt="Fudge" /></div><div class="meta"><span>Fudge Cake</span><small>₹500</small></div></div>
+        <div class="item" data-cake="Chocolate Cake" data-price="700"><div class="thumb"><img src="assets/candlelight.webp" alt="Chocolate" /></div><div class="meta"><span>Chocolate Cake</span><small>₹700</small></div></div>
+        <div class="item" data-cake="Butterscotch" data-price="650"><div class="thumb"><img src="assets/cinema.webp" alt="Butterscotch" /></div><div class="meta"><span>Butterscotch</span><small>₹650</small></div></div>
+      </div>
+
+      <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
+        <button class="btn" id="skipCake">Skip</button>
+      </div>
+      <div class="small" style="margin-top:10px; opacity:.9;">Click any cake to continue.</div>
+    </div>
+  </section>
+
+  <aside class="sidebar">
+    <div class="glass rgb-border summary">
+      <div class="panel-title" style="margin:0;">Total</div>
+      <div class="sumrow"><span data-sum="total"></span><small>Booking Summary</small></div>
+      <div class="hr"></div>
+      <div class="sumrow"><span>Theater</span><span data-sum="theatre"></span></div>
+      <div class="sumrow"><span>Decoration</span><span data-sum="decor"></span></div>
+      <div class="sumrow"><span>Cake</span><span data-sum="cake"></span></div>
+      <div class="sumrow"><span>Add-ons</span><span data-sum="addons"></span></div>
+      <div class="hr"></div>
+      <div class="sumrow"><span>Subtotal</span><span data-sum="subtotal"></span></div>
+      <div class="sumrow"><span>Advance payable</span><span data-sum="advance"></span></div>
+      <div class="sumrow"><span>Balance amount</span><span data-sum="balance"></span></div>
+    </div>
+  </aside>
+</div>
+
+
+<div class="footer">
+  <div>PLAYHAUZ ENTERTAINMENT ZONE PRIVATE LIMITED</div>
+  <div class="small">B-31, Basement, Lajpat Nagar - 1, Lajpat Nagar (South Delhi), South Delhi, New Delhi, Delhi, India, 110024</div>
+  <div class="small">playhauzentertainment@gmail.com</div>
+</div>
+
+</main>
+<a class="whatsapp-fab" href="javascript:void(0)" onclick="document.getElementById('confirmBtn')?.scrollIntoView({behavior:'smooth'})" title="WhatsApp">
+  <span>WA</span>
+</a>
+<script src="script.js"></script>
+</body>
+</html>

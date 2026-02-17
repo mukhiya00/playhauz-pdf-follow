@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PLAYHAUZ • Add-ons</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="bg" aria-hidden="true">
+  <img src="assets/bg.webp" alt="" />
+</div>
+
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html" aria-label="Playhauz Home">
+      <img class="brand-logo" src="assets/logo.webp" alt="PLAYHAUZ logo" />
+      <span class="brand-text glitch" data-text="PLAYHAUZ">PLAYHAUZ</span>
+    </a>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="services.html">Our Services</a>
+      <a href="terms.html" style="background: rgba(255,255,255,.08)">Book Now</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn primary" href="services.html">Book Now</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<div class="section-head">
+  <h2 class="section-title">Choose Add-ons</h2>
+</div>
+
+<div class="two">
+  <section class="glass rgb-border">
+    <div class="card-pad">
+      <div class="small" style="opacity:.9; font-weight:900;">Extra Decoration (optional)</div>
+
+      <div class="check" data-addon data-name="Rose Heart Balloon" data-price="150"><input type="checkbox" /><div><div style="font-weight:1000;">Rose Heart Balloon</div><div class="small">₹150</div></div></div>
+      <div class="check" data-addon data-name="Candle Path" data-price="300"><input type="checkbox" /><div><div style="font-weight:1000;">Candle Path</div><div class="small">₹300</div></div></div>
+      <div class="check" data-addon data-name="LED Numbers" data-price="100"><input type="checkbox" /><div><div style="font-weight:1000;">LED Numbers</div><div class="small">₹100</div></div></div>
+
+      <div class="hr" style="margin:16px 0;"></div>
+      <div class="small" style="opacity:.9; font-weight:900;">Special services (optional)</div>
+
+      <div class="check" data-addon data-name="Photoshoot (15 min)" data-price="300"><input type="checkbox" /><div><div style="font-weight:1000;">Photoshoot (15 min)</div><div class="small">₹300</div></div></div>
+      <div class="check" data-addon data-name="Photoshoot (30 min)" data-price="700"><input type="checkbox" /><div><div style="font-weight:1000;">Photoshoot (30 min)</div><div class="small">₹700</div></div></div>
+      <div class="check" data-addon data-name="Fog Entry" data-price="990"><input type="checkbox" /><div><div style="font-weight:1000;">Fog Entry</div><div class="small">₹990</div></div></div>
+
+      <button class="btn primary full" id="addonsNext" style="margin-top:14px;">Next step</button>
+    </div>
+  </section>
+
+  <aside class="sidebar">
+    <div class="glass rgb-border summary">
+      <div class="panel-title" style="margin:0;">Total</div>
+      <div class="sumrow"><span data-sum="total"></span><small>Booking Summary</small></div>
+      <div class="hr"></div>
+      <div class="sumrow"><span>Theater</span><span data-sum="theatre"></span></div>
+      <div class="sumrow"><span>Decoration</span><span data-sum="decor"></span></div>
+      <div class="sumrow"><span>Cake</span><span data-sum="cake"></span></div>
+      <div class="sumrow"><span>Add-ons</span><span data-sum="addons"></span></div>
+      <div class="hr"></div>
+      <div class="sumrow"><span>Subtotal</span><span data-sum="subtotal"></span></div>
+      <div class="sumrow"><span>Advance payable</span><span data-sum="advance"></span></div>
+      <div class="sumrow"><span>Balance amount</span><span data-sum="balance"></span></div>
+    </div>
+  </aside>
+</div>
+
+
+<div class="footer">
+  <div>PLAYHAUZ ENTERTAINMENT ZONE PRIVATE LIMITED</div>
+  <div class="small">B-31, Basement, Lajpat Nagar - 1, Lajpat Nagar (South Delhi), South Delhi, New Delhi, Delhi, India, 110024</div>
+  <div class="small">playhauzentertainment@gmail.com</div>
+</div>
+
+</main>
+<a class="whatsapp-fab" href="javascript:void(0)" onclick="document.getElementById('confirmBtn')?.scrollIntoView({behavior:'smooth'})" title="WhatsApp">
+  <span>WA</span>
+</a>
+<script src="script.js"></script>
+</body>
+</html>
